@@ -15,11 +15,11 @@
 	font-family: "Unispace";
 	font-style: normal;
 	font-weight: normal;
-	src: local("Unispace-Bold"), url("unispace%20bd.woff") format("woff");
+	src: local("Unispace-Bold"), url("/assets/fonts/unispace.woff") format("woff");
 }
 
 body {
-	background: url("background.gif") no-repeat center center fixed;
+	background: url("/assets/img/background.gif") no-repeat center center fixed;
 	background-size: cover;
 }
 

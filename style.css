@@ -1,0 +1,612 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+   @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Staatliches&display=swap');
+
+   .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+   @font-face {
+    font-family: 'Unispace-Regular';
+ 
+    src: local('Unispace-Regular'), url('unispace.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Unispace-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unispace-Italic'), url('unispace%20it.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Unispace';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unispace-Bold'), url('unispace%20bd.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Unispace-BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unispace-BoldItalic'), url('unispace%20bd%20it.woff') format('woff');
+    }
+
+
+
+ 
+
+ body{
+  background: url('background.gif') no-repeat center center fixed;
+  background-size: cover;
+  }
+
+html {
+  --scrollbarBG: black;
+  --thumbBG: blue;
+}
+
+
+a:link {
+  color: blue;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color:white;
+   text-decoration: line-through;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+}
+
+
+
+
+.hilite{
+ background-color:#051396; 
+  
+}
+
+
+  .mall{
+     width:830px;
+     height:800px;
+     background-color:blue;
+     margin:auto;
+     background: url(165297500_932962300774001_6284963606589589886_n(4)(3).jpg) center;
+  border-radius: 10px;
+       background-repeat: no-repeat;
+            background-size: contain; 
+    }
+    
+  .window{
+   
+      border-radius: 10px;
+     margin:auto; 
+     padding:1px;
+     border:2px solid white;
+     background-image: linear-gradient( #000000 , black, black, black, black, black,    #000000 );
+  }
+     
+       .window1{
+    width:850px;
+     height:820px;
+      border-radius: 10px;
+     margin:auto;  
+     background-color:blue;
+     border:4px solid blue; 
+       }
+    
+  .abt1 { 
+    position: relative;
+  width:200px;
+  height:200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top:3px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+   padding:4px;
+   
+}
+ 
+ 
+.abt1:hover {
+  opacity: 1;
+  box-shadow: 0 0 5px blue;
+}  
+ 
+ 
+ 
+ .abt2 { 
+    position: relative;
+  width:200px;
+  height:400px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+padding:4px;
+   
+}
+ 
+ 
+.abt2:hover {
+  opacity: 1;
+  box-shadow: 0 0 5px blue;
+}  
+
+
+ 
+ .abt3 { 
+    position: relative;
+  width:200px;
+  height:270px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+padding:4px;
+float:right;
+   
+}
+ 
+ 
+ ::selection {
+  background: #000000; 
+  color:white;
+  
+  
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #000000; /* Gecko Browsers */
+  color:white;
+}
+ 
+.abt3:hover {
+  opacity: 1;
+  box-shadow: 0 0 5px blue;
+}  
+ 
+ 
+ .abt4 { 
+    position: relative;
+  width:200px;
+  height:320px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+padding:4px;
+float:right;
+   
+}
+ 
+ 
+.abt4:hover {
+  opacity: 1;
+  box-shadow: 0 0 5px blue;
+}  
+ 
+   
+   .right{
+     
+    float:right; 
+   }
+   
+   
+    .divtext{
+    
+     color: white; 
+  font-family: monospace;
+  font-size:  14px;
+
+  
+ line-height: 30px;
+ background: transparent;
+ padding:1px;
+    
+  }
+
+ 
+    .divtext1{
+    
+     color: white;  
+  font-size:  17px;
+
+  font-family: "Unispace", monospace;
+ line-height: 30px;
+ background: transparent;
+ padding:1px;
+    
+  }
+
+
+  .qrows {
+  color: blue; 
+  font-family: "Unispace", monospace;
+  font-size: 50px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+ 
+  animation: type 4s steps(60, end); 
+  font-style:italic;
+  font-weight:bold;
+  text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+ letter-spacing: 7px;
+ text-decoration: line-through;
+ 
+}
+
+
+.qrows:hover {
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+
+  .cant {
+  color: white; 
+  font-family: "Unispace", monospace;
+  font-size: 17px;
+  margin: 10px 0 0 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em; 
+  font-style:italic;
+  font-weight:bold;
+  
+  text-align:right;
+ text-shadow: 0 0 2px blue;
+ line-height: 90%;
+}
+ 
+ 
+
+
+  .divheader{
+    
+     color: white; 
+  font-family: "Unispace", monospace;
+  font-size:  22px;
+  font-style:italic;
+  font-weight:bold;
+  text-align:center;
+   text-shadow: 1px 1px 2px blue;
+ 
+ padding-left:3px;
+ padding-right:3px;
+ 
+ background: transparent;
+ 
+  
+ display:inline;
+   animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ text-decoration: 2px underline ;
+    text-decoration-color: blue;
+  }
+  
+  
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.main {
+ 
+width: 1000px;
+height:600px;
+background-color: transparent;
+  margin:auto;
+border-radius: 10px;
+
+}
+
+
+.sections2 {
+   height:149px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+ 
+ 
+        background-size: 2em 2em;
+        background: transparent;
+        opacity: 1
+}
+ 
+.sections2:hover {
+  
+  box-shadow: 0 0 5px blue;
+}
+
+
+
+
+.sections3 { 
+  width:100%;
+  height:149px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+ 
+ background: radial-gradient(circle, transparent 25%, #000000  26%),linear-gradient(45deg, transparent 46%, #000000 47%, #000000 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #000000 47%, #000000 52%, transparent 53%);
+        background-size: 2em 2em;
+        background-color: #000000;
+        opacity: 1
+}
+ 
+.sections3:hover {
+  
+  box-shadow: 0 0 5px blue;
+}
+
+
+
+
+
+.main2 {
+  
+  
+ 
+width: 990px;
+height:590px;
+
+
+ border: 1.5px solid white;
+border-radius: 10px;
+
+ margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+}
+
+
+.main3 {
+ scrollbar-width: thin;
+ overflow:auto;
+ padding: 10px;
+ width:300px;
+ height:480px;
+  float:right;
+    margin-left: 9px;
+     border: 1px solid blue;
+    margin-right: 9px; 
+  border-radius: 10px;
+background:transparent;
+
+
+
+}
+
+.innersec{
+ 
+ padding:4px; 
+  
+}
+
+
+.innermain{
+ width:100%;
+ height:99%;
+   scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+border-top:2px solid blue;
+  border-bottom:2px solid blue;
+
+        background-size: 2em 2em;
+        opacity: 1
+
+}
+
+
+.main3:hover { 
+box-shadow: 0 0 7px blue;
+}
+
+.main3_1 {
+
+ padding: 10px;
+ width:270px;
+ height:224px;
+ float:left;
+    margin-left: 9px;
+    margin-bottom:10px;
+    margin-right: 9px;
+   
+  border: 1px solid blue;
+  border-radius: 10px;
+  
+background: transparent;
+
+}
+
+.main3_1:hover {
+border: 1px solid blue;
+box-shadow: 0 0 7px blue;
+}
+
+
+
+.blinkies{
+  width: 1000px;
+  margin: auto;
+  text-align:center;
+}
+
+  
+.div-1{
+  background-color: black; 
+  max-width: 50%;
+  text-align: center;
+  position:relative;
+  padding-top:7em;
+  padding-left:7em;
+  padding-right:7em;
+  padding-bottom:1em;
+  margin: 0 auto;
+  
+}
+
+
+.homediv{
+  
+  background-color: black; 
+  width: 600px;
+  
+  text-align: center;
+  position:relative;
+  padding-top:7em;
+  padding-left:7em;
+  padding-right:7em;
+  padding-bottom:1em;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+
+ 
+
+
+
+.gallery img:hover{
+  transform: scale(1.01);
+  transition:.7s;
+}
+
+.update{
+overflow: scroll;
+max-height: 20%;
+width: 20%;
+padding: 7em;
+ margin: 0 auto;
+ border: 2px;
+
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+/* extra css here */
+
+.div-1{
+  background-color: black; 
+  max-width: 90%;
+  text-align: center;
+  position:relative;
+  padding:3em;
+  margin: 0 auto;
+}
+
+.gallery{
+  background-color: black; 
+  max-width: 90%;
+  text-align: center;
+  position:relative;
+  padding:3em;
+  margin: 0 auto;
+}
+ 
+
+}
+
+.scrolling-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: blue;
+  font-family: "Unispace", monospace;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-banner-content {
+  display: inline-block;
+  animation: scrollBanner 15s linear infinite;
+}
+
+.scrolling-banner img {
+  vertical-align: middle;
+  height: 50px;
+  margin: 0 69px;
+}
+
+@keyframes scrollBanner {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+

@@ -1,0 +1,771 @@
+<!DOCTYPE html><html><head>
+  <meta name="title" content="0dayanon">
+    <meta name="description" content="Im A 19 Yr Old Cybersecurity Researcher, Full Time BugBounty Hunter, Malware Analyst">
+    <meta name="keywords" content="0dayanon, wormsec, cybersecurity, bugbounty, hacking">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="0dayanon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0DAYANON</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="1.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      cursor: url('/cursor/cursorr.png') 32 0, auto;
+      margin: 0;
+    }
+
+    a, button {
+        cursor: url('/cursor/pointerr.png') 32 0, pointer;
+    }
+
+    /* initial screen styles */
+    #initial-screen {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      z-index: 69;
+      overflow: hidden;
+    }
+    
+    #background-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    #enter-button {
+      position: absolute;
+      bottom: 33%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Sixtyfour', sans-serif;
+      font-size: 69px;
+      color: rgb(30, 101, 255);
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      animation: glow-animation 1.5s infinite alternate;
+    }
+    
+    #enter-button:hover {
+      transform: translateX(-50%) scale(1.1);
+      /* box-shadow: 0 0 20px rgb(42, 42, 255); */
+    }
+
+    @keyframes glow-animation {
+      0% {
+        text-shadow: 0 0 5px rgb(42, 42, 255), 0 0 10px rgb(40, 40, 255), 0 0 15px rgb(36, 32, 255);
+      }
+      100% {
+        text-shadow: 0 0 10px rgb(0, 56, 209), 0 0 20px rgb(0, 0, 184),rgb(43, 43, 255) 30px rgb(19, 42, 255);
+      }
+    }
+
+    #welcome-video {
+      display: none;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+    }
+  
+    body {
+      overflow: hidden;
+    }
+
+  </style>
+  <style>  
+ 
+  
+  
+    body {
+      margin: 0;
+      animation: fadeInAnimation ease 1.7s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+ 
+  
+  
+  .divheader{
+    
+     color: white; 
+  font-family: "Unispace", monospace;
+  font-size:  22px;
+  font-style:italic;
+  font-weight:bold;
+  text-align:center;
+   text-shadow: 1px 1px 2px blue;
+ 
+ padding-left:3px;
+ padding-right:3px;
+ 
+ 
+  
+ display:inline;
+   animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ text-decoration: 2px underline ;
+    text-decoration-color: blue;
+  }
+  
+  
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  
+  
+    .divtext{
+    
+     color: white; 
+  font-family: monospace;
+  font-size:  14px;
+
+  
+ line-height: 30px;
+ background: transparent;
+ padding:3px;
+    
+  }
+  
+  
+    .qrows {
+  color: blue; 
+  font-family: "Unispace", monospace;
+  font-size: 50px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+  font-style:italic;
+  font-weight:bold;
+  text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+ letter-spacing: 7px;
+ text-decoration: line-through;
+ 
+}
+
+
+.qrows:hover {
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  to {
+    text-shadow: 1px 1px 5px blue, 0 0 1em blue, 0 0 0.2em blue;
+  }
+}
+
+
+
+
+
+ .socmedlinks{
+float:right;
+width:50%;
+height:33px;
+background-color:transparent;
+color:blue;
+font-family: "Unispace", monospace;
+text-align:center;
+margin:auto;
+padding:3px;
+border-top: 2px solid blue;
+border-bottom: 2px solid blue;
+border-left:1px solid blue;; border-right:1px solid blue;
+font-size:20px;
+margin-top:3px;
+margin-bottom:3px;
+border-radius:7px;
+ font-weight:bold;
+        font-style:italic;
+}
+
+ .socmedlinks:hover{
+background-color:#000000;
+ color:white;
+   text-decoration: line-through;
+ background-image: linear-gradient(to bottom right, blue, blue, #000000);
+}
+
+ .socmedlinks:active{
+background-color:blue;
+ box-shadow: 2px 2px 5px blue;
+ background-image: none;
+}
+
+
+
+    .cant {
+  color: blue; 
+  font-family: "Unispace", monospace;
+  font-size: 17px;
+  margin: 10px 0 0 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em; 
+  font-style:italic;
+  font-weight:bold;
+  float:right;
+  text-align:right;
+ 
+ line-height: 90%;
+ 
+}
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+
+
+.sections { 
+  width:100%;
+  height:150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top:2px solid blue;
+  border-bottom:2px solid blue;
+  scrollbar-width: thin;
+ overflow:auto;
+scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+ 
+        background-size: 2em 2em;
+        background: transparent;
+        opacity: 1;
+        color: white;
+       
+}
+ 
+.sections:hover {
+  
+  box-shadow: 0 0 5px blue;
+}
+
+
+
+.animated-border-box, .animated-border-box-glow{
+  height: 600px;
+  width: 1000px;
+  
+  position: absolute;
+  overflow: hidden; 
+  z-index: 0;
+  /* border Radius */
+	border-radius: 10px;
+}
+
+.animated-border-box-glow{
+  overflow: hidden;
+  /* glow Blur */
+  filter: blur(20px);
+}
+
+.animated-border-box:before, .animated-border-box-glow:before {
+  content: '';
+  z-index: -2;
+  text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+  position: absolute;
+	width: 99999px;
+	height: 99999px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+  /*border color, change middle color*/
+	background-image: conic-gradient(rgba(0,0,0,0), blue,   #00ff26  , blue, rgba(0,0,0,0) 25%);
+  /* change speed here */
+	animation: rotate 4s linear infinite;
+}
+
+.animated-border-box:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+  /* border width */
+	left: 5px;
+	top: 5px;
+  /* double the px from the border width left */
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+  /*bg color*/
+	background: transparent;
+  /*box border radius*/
+	border-radius: 7px;
+	
+}
+
+
+
+@keyframes rotate {
+	100% {
+		transform: translate(-50%, -50%) rotate(1turn);
+	}
+}
+
+
+
+    
+  </style>
+  </head>
+  
+  
+  <body>
+    <div id="initial-screen">
+      <img id="background-image" src="click.png" alt="Click to Enter">
+      <div id="enter-button">Enter</div>
+    </div>
+  <video id="welcome-video" src="welcome.mp4"></video>
+  <div class="main-content">
+    <div class="main">
+  
+  <pre>  
+  
+  </pre>
+  <div class="main">
+  
+  <div class="animated-border-box-glow"></div>
+  <div class="animated-border-box">
+  <div class="main2">
+   <span class="qrows"><span id="letters"></span></span> <div class="cant">       </div> 
+    <p>
+    
+    </p><div class="main3_1"><div class="innermain">
+    
+    <span class="divheader">WHOAMI </span> <p>
+    <span class="divtext">
+    Im A 19 Yr Old Cybersecurity Researcher, Full Time BugBounty Hunter, Malware Analyst .
+    
+    
+    </p></div>
+    </div> 
+    
+     <div class="main3">   
+     
+     
+     <div class="sections2"><div class="innersec"><span class="divheader">PROJECTS</span>
+   <p>
+    <span class="divtext">
+     WormSec - XSS Scanner</span>
+      </p><p>
+    
+          <div class="button-container">
+          <button class="button" onclick="window.location.href='https://wormsec.com/'">
+            <div class="dots_border"></div>
+            <span class="text_button">Worm Scanner</span>
+          </button>
+        </div>
+
+
+        <style>
+          .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+          }
+          .button {
+            --blue-700: rgb(25,25,25);
+            --border_radius: 9999px;
+            --transtion: 0.3s ease-in-out;
+            --offset: 2px;
+        
+            cursor: pointer;
+            position: relative;
+        
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        
+            transform-origin: center;
+        
+            padding: 0.50rem 1.2rem;
+            background-color: transparent;
+        
+            border: none;
+            border-radius: var(--border_radius);
+            transform: scale(calc(1 + (var(--active, 0) * 0.1)));
+        
+            transition: transform var(--transtion);
+          }
+        
+          .button::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
+            width: 100%;
+            height: 100%;
+            background-color: var(--blue-700);
+        
+            border-radius: var(--border_radius);
+            box-shadow: inset 0 0.5px blue, inset 0 -1px 2px 0 hsl(0, 0%, 0%),
+              0px 4px 10px -4px hsla(0 0% 0% / calc(1 - var(--active, 0))),
+              0 0 0 calc(var(--active, 0) * 0.375rem) blue;
+        
+            transition: all var(--transtion);
+            z-index: 0;
+          }
+        
+          .button::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
+            width: 100%;
+            height: 100%;
+            background-color: hsla(240, 100%, 16%, 0.75);
+            background-image: radial-gradient(
+                at 51% 89%,
+                rgb(74, 88, 167) 0px,
+                transparent 50%
+              ),
+              radial-gradient(at 100% 100%, rgb(0, 105, 100) 0px, transparent 50%),
+              radial-gradient(at 22% 91%, rgb(0, 87, 109) 0px, transparent 50%);
+            background-position: top;
+        
+            opacity: var(--active, 0);
+            border-radius: var(--border_radius);
+            transition: opacity var(--transtion);
+            z-index: 2;
+          }
+        
+          .button:is(:hover, :focus-visible) {
+            --active: 1;
+          }
+          .button:active {
+            transform: scale(1);
+          }
+        
+          .button .dots_border {
+            --size_border: calc(100% + 2px);
+        
+            overflow: hidden;
+        
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        
+            width: var(--size_border);
+            height: var(--size_border);
+            background-color: transparent;
+        
+            border-radius: var(--border_radius);
+            z-index: -10;
+          }
+        
+          .button .dots_border::before {
+            content: "";
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transform-origin: left;
+            transform: rotate(0deg);
+        
+            width: 100%;
+            height: 2rem;
+            background-color: rgb(16, 13, 179);
+        
+            mask: linear-gradient(transparent 0%, white 120%);
+            animation: rotate 2s linear infinite;
+          }
+        
+          @keyframes rotate {
+            to {
+              transform: rotate(360deg);
+            }
+          }
+        
+          .button .sparkle {
+            position: relative;
+            z-index: 10;
+        
+            width: 1.75rem;
+          }
+        
+          .button .sparkle .path {
+            fill: currentColor;
+            stroke: currentColor;
+        
+            transform-origin: center;
+        
+            color: hsl(0, 0%, 100%);
+          }
+        
+          .button:is(:hover, :focus) .sparkle .path {
+            animation: path 1.5s linear 0.5s infinite;
+          }
+        
+          .button .sparkle .path:nth-child(1) {
+            --scale_path_1: 1.2;
+          }
+          .button .sparkle .path:nth-child(2) {
+            --scale_path_2: 1.2;
+          }
+          .button .sparkle .path:nth-child(3) {
+            --scale_path_3: 1.2;
+          }
+        
+          @keyframes path {
+            0%,
+            34%,
+            71%,
+            100% {
+              transform: scale(1);
+            }
+            17% {
+              transform: scale(var(--scale_path_1, 1));
+            }
+            49% {
+              transform: scale(var(--scale_path_2, 1));
+            }
+            83% {
+              transform: scale(var(--scale_path_3, 1));
+            }
+          }
+        
+          .button .text_button {
+            position: relative;
+            z-index: 10;
+        
+            background-image: linear-gradient(90deg, rgb(48 69 255) 0%, rgb(71, 88, 241) 120%);
+            background-clip: text;
+        
+            font-size: 1rem;
+            color: transparent;
+          }
+        </style>
+     
+     </p></div> </div>
+     
+      <div class="sections">
+     <div class="innersec">
+    <span class="divheader"> FIND ME ON...</span>
+   
+    <a href="https://discord.gg/KWW58tcfNd" target="_blank"><button class="socmedlinks"> DISCORD</button></a>
+    <a href="https://t.me/+JVldxMiiw75hMTJk" target="_blank"><button class="socmedlinks"> TELEGRAM</button></a>
+    <a href="https://www.youtube.com/@wormsec" target="_blank"><button class="socmedlinks"> YOUTUBE</button></a>
+    <a href="https://github.com/0dayan0n" target="_blank"><button class="socmedlinks"> GITHUB</button></a>
+     <a href="https://medium.com/@0x1mohammed" target="_blank"><button class="socmedlinks"> MEDIUM</button></a>
+    <a href="https://www.instagram.com/xpx/" target="_blank"><button class="socmedlinks"> INSTA</button></a> 
+    
+    </div>
+     </div>
+     
+    
+
+    <p>
+
+    <!-- <img src="2.png" style="align:center; cursor:pointer;" width="300px"> -->
+
+    
+    
+     
+     </div>
+     
+     
+     <div class="main3"> <div class="innermain"> <span class="divheader">GOAL</span>
+    <p>
+    
+   <span class="divtext1"> <span style="color:blue;"><b><i>TO REACH AND HELP AS MANY PEOPLE</i></b> </span>  
+    </span> 
+    <br>
+     <span class="divtext">
+as my goal is to forge an educational, inclusive, and secure environment where learning thrives and networking with peers propels your professional and personal development. Active engagement, whether through resource sharing, participating in discussions, or contributing to collaborative projects, is highly encouraged.
+    
+    
+    </span>
+     
+       
+     
+     <span class="divtext">
+     
+     
+     </span>
+     
+    </p></div></div>
+    
+    <div class="main3_1"><div class="innermain"> <span class="divheader"> YOUTUBE UPDATES</span>
+    <p>
+    <span class="divtext">
+                
+        	  <span class="hilite">TUTORIAL</span> -         Finding Vulnerabilities With Nuclei AI 2025        <a href="https://www.youtube.com/watch?v=E6Aufn6wia0&t=69s"> WATCH</a>.
+    
+    <br>   
+        
+        	  <span class="hilite">TUTORIAL</span> -        Live Mass Bug Hunting Active HackerOne & BugCrowd Domains Private Methodology | 2025        <a href="https://www.youtube.com/watch?v=ml_I0CAA86A"> WATCH</a>.
+    
+    <br>   
+                        
+	  <span class="hilite">TUTORIAL</span> -       How To Find XSS 2025 | wormsec v0.1       <a href="https://www.youtube.com/watch?v=DTXISrJepWU"> WATCH</a>.
+    
+    <br>   
+ 
+                
+	  <span class="hilite">TUTORIAL</span> -      [Critical] Sql injection in wordpress worth $1,000 || POC CVE-2024-2876      <a href="https://www.youtube.com/watch?v=DDctkrZ8f6o&t=156s"> WATCH</a>.
+    
+    <br>   
+                
+        
+	  <span class="hilite">TUTORIAL</span> -      How to Access 404 Files Of Any Server | Bug Bounty POC | Live Recon | part 2      <a href="https://www.youtube.com/watch?v=hHLCfTm8TN8&t=63s"> WATCH</a>.
+    
+    <br>   
+	
+	  <span class="hilite">TUTORIAL</span> -     Bookmark Trick That Will Help You Find Sql Injection Endpoint     <a href="https://www.youtube.com/watch?v=X64c_-dh3rs&t=32s"> WATCH</a>.
+    
+    <br>
+	
+
+  <span class="hilite">TUTORIAL</span> -     Get Hands On BurpSuite Extensions To Find Vulnerablities | 2025 | Part 1     <a href="https://www.youtube.com/watch?v=DJm7w1wKPUg"> WATCH</a>.
+    
+    <br>
+    <span class="hilite">TUTORIAL</span> -     Install Burp Suite Professional | For Free | portswigger academy | 2025     <a href="https://www.youtube.com/watch?v=g8vpREI8Fno&t=11s"> WATCH</a>.
+    
+    <br>
+    <span class="hilite">TUTORIAL</span> -    Blind SQLi Automated Method For Bug hunting    <a href="https://www.youtube.com/watch?v=QsdQs8Pde3M"> WATCH</a>.
+	
+	 <br>
+    <span class="hilite">TUTORIAL</span> -   How to find SQL Injection Vulnerability | Database Exploit + Bug Bounty POC   <a href="https://www.youtube.com/watch?v=MrcLlZYJL-Y&t=17s"> WATCH</a>.
+		
+	 <br>
+    <span class="hilite">TUTORIAL</span> -  Open Redirect Vulnerability Easy To Find Manually | 2024  <a href="https://www.youtube.com/watch?v=PoWQvoajKLQ&t=53s"> WATCH</a>.
+			
+	 <br>
+    <span class="hilite">TUTORIAL</span> -  Find Website Vulnerabilities Step By Step (For Beginner) XSS,LFI,CSRF And More  <a href="https://www.youtube.com/watch?v=bNdMlI6RvIs&t=78s"> WATCH</a>.
+    
+     
+    
+    
+    </span>
+    
+    </p></div>
+    </div>
+    
+    
+    
+    
+    
+    </div>
+    </div> 
+  </div>   
+  
+  <pre>  
+
+  </pre>
+  
+  <div class="scrolling-banner">
+    <div class="scrolling-banner-content">
+      <!-- Wormsec - Zerodayanon -->  
+      <img src="banner1.png" alt="1"> 
+      <!-- Wormsec - Zerodayanon --> 
+      <img src="banner2.png" alt="2"> 
+      <!-- Wormsec - Zerodayanon -->  
+      <img src="banner3.png" alt="3">
+      <!-- Wormsec - Zerodayanon -->  
+      <img src="banner1.png" alt="1"> 
+      <!-- Wormsec - Zerodayanon --> 
+      <img src="banner2.png" alt="2"> 
+      <!-- Wormsec - Zerodayanon -->  
+      <img src="banner3.png" alt="3">
+    </div>
+  </div>
+  
+  <script>
+    // 0dayanon if you are reading this
+    // i changed this code not to use jquery i hope you dont mind
+    // yk that jquery can have some bugs or vulns sometimes
+    // ~ jul (https://juljeryt.pl)
+    var text = '0DAYANON';
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var el = document.getElementById('letters');
+      var delay = 50; // ya can tune this later for different letter delays
+      
+      text.split("").forEach(function(c, i) {
+        var span = document.createElement('span');
+        span.id = c;
+        span.textContent = c;
+        span.style.opacity = '0';
+        el.appendChild(span);
+        
+        setTimeout(function() {
+          // fade in effect
+          var opacity = 0;
+          var fadeIn = setInterval(function() {
+            opacity += 0.1;
+            span.style.opacity = opacity;
+            if (opacity >= 1) {
+              clearInterval(fadeIn);
+            }
+          }, 40); // 400ms / 10 steps = 40ms per step yk what i mean
+        }, 100 + i * delay);
+      });
+    });
+
+    // js for initial screen and video playback
+    document.addEventListener('DOMContentLoaded', function() {
+      var initialScreen = document.getElementById('initial-screen');
+      var enterButton = document.getElementById('enter-button');
+      var welcomeVideo = document.getElementById('welcome-video');
+      var mainContent = document.querySelector('.main-content');
+      var backgroundImage = document.getElementById('background-image');
+
+      enterButton.addEventListener('click', function() {
+        initialScreen.style.display = 'none';
+        welcomeVideo.style.display = 'block';
+        welcomeVideo.play();
+        backgroundImage.style.display = 'none';
+      });
+
+      welcomeVideo.addEventListener('ended', function() {
+        welcomeVideo.style.display = 'none';
+        mainContent.style.display = 'flex';
+      });
+    });
+  </script>
+  
+  
+</body></html>

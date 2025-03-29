@@ -12,27 +12,6 @@
   }
 
 
-
-
-
-
-
-
-   @font-face {
-    font-family: 'Unispace-Regular';
- 
-    src: local('Unispace-Regular'), url('unispace.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Unispace-Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Unispace-Italic'), url('unispace%20it.woff') format('woff');
-    }
-    
-
     @font-face {
     font-family: 'Unispace';
     font-style: normal;
@@ -41,12 +20,6 @@
     }
     
 
-    @font-face {
-    font-family: 'Unispace-BoldItalic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Unispace-BoldItalic'), url('unispace%20bd%20it.woff') format('woff');
-    }
 
 
 

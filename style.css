@@ -15,7 +15,7 @@
 	font-family: "Unispace";
 	font-style: normal;
 	font-weight: normal;
-	src: local("Unispace-Bold"), url("unispace%20bd.woff") format("woff");
+	src: local("Unispace-Bold"), url("/assets/fonts/unispace.woff") format("woff");
 }
 
 body {

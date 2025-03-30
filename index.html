@@ -2,14 +2,8 @@
 <html>
 	<head>
 		<meta name="title" content="0dayanon" />
-		<meta
-			name="description"
-			content="Im A 19 Yr Old Cybersecurity Researcher, Full Time BugBounty Hunter, Malware Analyst"
-		/>
-		<meta
-			name="keywords"
-			content="0dayanon, wormsec, cybersecurity, bugbounty, hacking"
-		/>
+		<meta name="description" content="Im A 19 Yr Old Cybersecurity Researcher, Full Time BugBounty Hunter, Malware Analyst"/>
+		<meta name="keywords" content="0dayanon, wormsec, cybersecurity, bugbounty, hacking"/>
 		<meta name="robots" content="index, follow" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="language" content="English" />
@@ -21,13 +15,8 @@
 		<!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-		<link
-			href="/assets/css/style.css"
-			rel="stylesheet"
-			type="text/css"
-			media="all"
-		/>
-		<link rel="icon" type="image/x-icon" href="1.png" />
+		<link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+		<link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
 		<link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
 	</head>
 
@@ -296,6 +285,7 @@
 					// js for initial screen and video playback
 					document.addEventListener("DOMContentLoaded", function () {
 						var initialScreen = document.getElementById("initial-screen");
+						var scrollingbanner = document.getElementById("scrolling-banner");
 						var enterButton = document.getElementById("enter-button");
 						var welcomeVideo = document.getElementById("welcome-video");
 						var mainContent = document.querySelector(".main-content");
@@ -306,6 +296,7 @@
 							welcomeVideo.style.display = "block";
 							welcomeVideo.play();
 							backgroundImage.style.display = "none";
+							scrollingbanner.style.display = "none";
 						});
 
 						welcomeVideo.addEventListener("ended", function () {
@@ -316,7 +307,7 @@
 				</script>
 			</div>
 
-			<div class="scrolling-banner">
+			<div class="scrolling-banner" id="scrolling-banner">
 				<div class="scrolling-banner-content">
 					<!-- Wormsec - Zerodayanon -->
 					<img src="/assets/img/banners/banner1.png" alt="1" />

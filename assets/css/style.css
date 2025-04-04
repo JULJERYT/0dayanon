@@ -21,6 +21,12 @@
 body {
 	background: url("/assets/img/background.gif") no-repeat top center fixed;
 	background-size: cover;
+	cursor: url("/assets/img/cursor/cursor.png") 32 0, auto;
+	margin: 0;
+	overflow: hidden;
+	animation: fadeInAnimation ease 1.7s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 html {
@@ -496,11 +502,6 @@ a:active {
 	}
 }
 
-body {
-	cursor: url("/assets/img/cursor/cursor.png") 32 0, auto;
-	margin: 0;
-}
-
 a,
 button {
 	cursor: url("/assets/img/cursor/pointer.png") 32 0, pointer;
@@ -572,16 +573,6 @@ button {
 	overflow: hidden;
 }
 
-body {
-	overflow: hidden;
-}
-
-body {
-	margin: 0;
-	animation: fadeInAnimation ease 1.7s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-}
 @keyframes fadeInAnimation {
 	0% {
 		opacity: 0;

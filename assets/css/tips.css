@@ -35,8 +35,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin-top: -125px;
+    min-height: 100vh;
 }
 
 .title {
@@ -45,6 +44,7 @@ body {
     position: relative;
     display: inline-block;
     padding-bottom: 15px;
+    padding-inline: 50px;
 }
 
 .title::after {
@@ -119,4 +119,10 @@ body {
 .square-div {
     display: flex;
     justify-content: center;;
+}
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+    }
 }

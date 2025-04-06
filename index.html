@@ -34,7 +34,7 @@
 				<div id="tips-button" onclick="window.location.href='/tips.html'">Tips</div>
 		  </div>
 		</div>
-		<video id="welcome-video" src="/assets/img/welcome.mp4"></video>
+		<!-- <video id="welcome-video" src="/assets/img/welcome.mp4"></video> -->
 		<div class="main-content">
 			<div class="main">
 				<pre></pre>
@@ -298,16 +298,17 @@
 
 						enterButton.addEventListener("click", function () {
 							initialScreen.style.display = "none";
-							welcomeVideo.style.display = "block";
-							welcomeVideo.play();
+							// welcomeVideo.style.display = "block";
+							// welcomeVideo.play();
+							mainContent.style.display = "flex";
 							backgroundImage.style.display = "none";
 							scrollingbanner.style.display = "none";
 						});
 
-						welcomeVideo.addEventListener("ended", function () {
-							welcomeVideo.style.display = "none";
-							mainContent.style.display = "flex";
-						});
+						// welcomeVideo.addEventListener("ended", function () {
+						// 	welcomeVideo.style.display = "none";
+						// 	mainContent.style.display = "flex";
+						// });
 					});
 				</script>
 			</div>

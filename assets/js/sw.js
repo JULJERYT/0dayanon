@@ -22,7 +22,8 @@ self.addEventListener('install', event => {
                '/assets/css/tips.css',
                '/assets/js/404.js',
                '/404.html',
-               '/tips.html'
+               '/tips.html',
+               '/assets/img/tipsbackground.webp',
            ]);
        })
    );

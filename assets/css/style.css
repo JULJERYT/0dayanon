@@ -530,11 +530,12 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 100px;
+	gap: 20px;
 	position: absolute;
-	bottom: 33%;
+	bottom: 20%;
 	left: 50%;
 	transform: translateX(-50%);
+	flex-direction: column;
 }
 
 #enter-button,

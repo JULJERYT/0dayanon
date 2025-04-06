@@ -16,7 +16,9 @@
 }
 
 body {
-    background-color: var(--dark-bg);
+    /* background-color: var(--dark-bg); */
+    background: url("/assets/img/tipsbackground.webp") no-repeat center center fixed;
+	background-size: cover;
     color: var(--text-color);
     font-family: 'coolfont';
     margin: 0;

@@ -5,6 +5,7 @@ document.querySelectorAll('.square').forEach(square => {
 
         if (hiddenText) {
             this.style.backgroundImage = 'none'; // hide bg image
+            this.style.backgroundColor = 'var(--dark-bg)'; // hide bg color
             this.textContent = hiddenText.textContent; // set text content
             this.style.textAlign = 'center'; // later we can change this to left
             this.style.padding = '10px'; // padding for better look

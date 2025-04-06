@@ -8,7 +8,7 @@ self.addEventListener('install', event => {
                '/assets/img/banners/banner1.png',
                '/assets/img/banners/banner2.png',
                '/assets/img/banners/banner3.png',
-               '/assets/img/welcome.mp4',
+            //    '/assets/img/welcome.mp4',
                '/assets/img/background.gif',
                '/assets/img/cursor/pointer.png',
                '/assets/img/cursor/cursor.png',

@@ -16,9 +16,9 @@
 }
 
 body {
-    /* background-color: var(--dark-bg); */
-    background: url("/assets/img/tipsbackground.webp") no-repeat center center fixed;
-	background-size: cover;
+    position: relative;
+    background: url("/assets/img/tips.gif") no-repeat center center fixed;
+    background-size: cover;
     color: var(--text-color);
     font-family: 'coolfont';
     margin: 0;
@@ -27,6 +27,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+/* darken background */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
 }
 
 .container {

@@ -1002,3 +1002,132 @@ button {
 	font-size: 1rem;
 	color: transparent;
 }
+
+@media only screen and (max-width: 768px) {
+	.main {
+	  width: 100%;
+	  height: auto;
+	  padding: 10px;
+	}
+ 
+	.main2 {
+	  width: 95%;
+	  height: auto;
+	  position: relative;
+	  transform: none;
+	  top: 0;
+	  left: 0;
+	  margin: 10px auto;
+	}
+ 
+	.main3, .main3_1 {
+	  width: 90%;
+	  height: auto;
+	  float: none;
+	  margin: 10px auto;
+	}
+ 
+	.animated-border-box,
+	.animated-border-box-glow {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	}
+ 
+	.qrows {
+	  font-size: 30px;
+	  width: 100%;
+	  margin: 10px;
+	  letter-spacing: 3px;
+	}
+ 
+	.cant {
+	  width: 100%;
+	  font-size: 14px;
+	  text-align: center;
+	  float: none;
+	}
+ 
+	.socmedlinks {
+	  width: 100%;
+	  float: none;
+	  margin: 5px auto;
+	}
+ 
+	.sections, .sections2, .sections3 {
+	  height: auto;
+	}
+ 
+	.divheader {
+	  font-size: 18px;
+	}
+ 
+	.divtext, .divtext1 {
+	  font-size: 12px;
+	  line-height: 24px;
+	}
+ 
+	#initial-screen {
+	  height: 100svh;
+	}
+ 
+	#button-container {
+	  bottom: 10%;
+	}
+ 
+	#enter-button, #tips-button {
+	  font-size: 40px;
+	}
+ 
+	.scrolling-banner {
+	  display: none;
+	}
+ 
+	.window, .window1 {
+	  width: 95%;
+	  height: auto;
+	}
+ 
+	body {
+	  overflow-y: auto;
+	}
+
+	#background-image {
+		width: 120%; /* slightly wider than viewport to allow for some overflow */
+		height: 120%; /* slightly taller... */
+		object-fit: cover;
+		object-position: center;
+	}
+ }
+ 
+ /* add viewport height support for modern mobile browsers */
+ @media only screen and (max-width: 768px) {
+	.main-content {
+	  height: auto;
+	  min-height: 100svh;
+	  padding: 20px 0;
+	}
+ }
+ 
+ /* quick fix for extremely small screens, i want to go to sleep already */
+ @media only screen and (max-width: 320px) {
+	.qrows {
+	  font-size: 24px;
+	}
+ 
+	.divheader {
+	  font-size: 16px;
+	}
+ 
+	#enter-button, #tips-button {
+	  font-size: 32px;
+	}
+ }
+
+
+@media only screen and (max-width: 480px) {
+	#background-image {
+	  width: 130%; 
+	  height: 130%; 
+	}
+}

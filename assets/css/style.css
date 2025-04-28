@@ -665,6 +665,15 @@ button {
 	}
 }
 
+@keyframes glow {
+	from {
+		text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
+	}
+	to {
+		text-shadow: 1px 1px 5px blue, 0 0 1em blue, 0 0 0.2em blue;
+	}
+}
+
 .socmedlinks {
 	float: right;
 	width: 50%;

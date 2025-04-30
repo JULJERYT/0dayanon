@@ -4,6 +4,7 @@ self.addEventListener('install', event => {
            return cache.addAll([
                '/',
                '/index.html',
+               '/portfolio.html',
                '/assets/img/click.png',
                '/assets/img/banners/banner1.png',
                '/assets/img/banners/banner2.png',
@@ -23,7 +24,7 @@ self.addEventListener('install', event => {
                '/assets/js/404.js',
                '/404.html',
                '/tips.html',
-               '/assets/img/tipsbackground.webp',
+               '/assets/img/tips.gif',
            ]);
        })
    );

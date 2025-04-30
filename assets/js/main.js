@@ -8,3 +8,13 @@ if ('serviceWorker' in navigator) {
        // console.log("service worker registered");
    });
 }
+function handleTransition(href) {
+    if (!document.startViewTransition) {
+      window.location.href = href;
+      return;
+    }
+  
+    document.startViewTransition(() => {
+      window.location.href = href;
+    });
+  }

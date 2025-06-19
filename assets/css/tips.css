@@ -129,6 +129,10 @@ body::before {
     font-size: 38px;
     border-radius: 8px;
     box-shadow: 0 0 20px var(--glow-color);
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    touch-action: pan-y;
+    max-height: 300px;
 }
 
 .square-div {
@@ -139,6 +143,20 @@ body::before {
 @media (max-width: 800px) {
     .content {
         flex-direction: column;
+        padding: 20px;
+        height: auto;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .container {
+        padding: 20px 0;
+        height: auto;
+        overflow-y: auto;
+    }
+
+    body {
+        overflow-y: auto;
     }
 }
 
